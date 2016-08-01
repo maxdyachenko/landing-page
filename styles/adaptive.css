@@ -1,0 +1,435 @@
+@media screen and (max-width: 1040px) {
+
+	.solution-points-group {
+		background:none;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		margin:10% auto 0 auto;
+		width:100%;
+	}
+
+	.solution-point:first-child,
+	.solution-point:nth-child(4),
+	.solution-point:nth-child(5),
+	.solution-point:nth-child(6) {
+		margin:20px 50px 100px 50px;
+	}
+
+	.solution-point {
+		background:#e2e4e7;
+		float:left;
+		margin:0 50px 100px 50px;
+		height:211px;
+		overflow:hidden;
+		transition: background 0.5s ease;
+		width:211px;
+	}
+
+	.form-submit {
+		width:480px;
+		margin:0 auto;
+		max-width:90%;
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+
+	.intro {
+		background:url(../images/bg-intro.png);
+		background-position:bottom;
+		background-size:cover;
+	}
+
+	.form-calling h3 {
+		order:3;
+	}
+
+	.form-submit p {
+		margin:0 auto;
+	}
+
+	.submit-button {
+		margin:4% auto 0 auto;
+		float:none;
+	}
+
+	.top-border {
+		border-bottom:1px solid #d0d0d0;
+		height:1px;
+		margin:50px auto 0 auto;
+	}
+
+	.news {
+		display:flex;
+		flex-wrap:wrap;
+		margin:0 auto;
+	}
+
+	.news:nth-child(2n+1) {
+		flex-direction:row;
+	}
+
+	.news-head {
+		padding:17px 23px 17px 0;
+		flex-grow:1;
+	}
+
+	.news-head h4 {
+		text-align:right;
+		margin-bottom:0.7em;
+	}
+
+	.news p {
+		border:none;
+		color:#565656;
+		padding:1em 0.5em 1em 1em;
+		text-align:left;
+		width:50%;
+	}
+
+	.news>img {
+		display:block;
+		flex-grow:0;
+		width:292px;
+		height:272px;
+		margin:0 auto;
+		padding:1em 0.5em 1em 1em;
+		height:auto;
+	}
+
+	.news time {
+		float:right;
+		text-align:left;
+		margin-right:15px;
+	}
+
+	.bottom-border {
+		border-top:1px solid #d0d0d0;
+		height:36px;
+		margin:0 auto;
+		max-width:942px;
+	}
+
+	.contact p {
+		margin:40px auto 0 auto;
+	}
+
+	.contact-form input[type="text"]:nth-child(4) {
+		margin:26px auto 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+
+	body {
+		font-size:85%;
+	}
+	
+	.about-point p {
+		text-align:center;
+	}
+
+	.form-calling h3 {
+		order:0;
+	}
+
+	.form-submit input[type="checkbox"] + span {
+		margin-bottom:20px;
+	}
+
+	.submit-button {
+		margin:45px auto 0 auto;
+	}
+	
+	.contact-form {
+		max-width:90%;
+	}
+
+	.contact-form input[type="text"] {
+		width:96%;
+	}
+
+	.contact-form .form-submit label span {
+		margin:25px 0 0 0;
+	}
+
+}
+
+
+
+@media screen and (max-width: 340px) {
+
+	body {
+		font-size:100%;
+	}
+
+	header {
+		background:rgba(0,0,0,0.79);
+		min-height:0px;
+		opacity:1;
+	}
+
+	.header-wrapper {
+		display:block;
+		margin-left:23px;
+		margin-top:3px;
+	}
+	
+	header a {
+		float:left;
+	}
+
+	header a img {
+		width:74px;
+	}
+
+	.menu-icon {
+		background:url(../images/menu-icon.png);
+		border:none;
+		display:block;
+		float:right;
+		outline:none;
+		height:7px;
+		width:14px;
+		margin:10px 20px 0 0;
+	}
+	
+	header nav {
+		display:none;
+	}
+
+	.menu-icon:hover+div+nav{
+		display:block;
+	}
+
+	.header-border-bottom {
+		border-bottom:1px solid #0e1215;
+		display:block;
+		margin:26px 0 0 -23px;
+		width:340px;
+	}
+
+	header ul {
+		display:block;
+	}
+
+	header li {
+		border:none;
+		border-bottom:1px solid rgba(39,117,205,0.5);
+		float:none;
+		height:20px;
+		width:294px;
+		color:#2775cd;
+		margin:13px 0 0 0px;
+		padding:0;
+	}
+
+	header li:hover {
+		color:white;
+	}
+
+	header li a {
+		font-family:"Roboto-Bold";
+		font-size:0.75em;
+	}
+
+	.intro {
+		background:url(../images/bg-intro-small.png);
+		background-repeat:no-repeat;
+		height:210px;
+		width:100%;
+		overflow:hidden;
+	}
+	
+	.label-intro-wrapper {
+		height:151px;
+		max-width:300px;
+	}
+
+	.label-intro h1 {
+		font-size:1.5em;
+	}
+
+	.label-intro-wrapper p {
+		font-size:1em;
+	}
+
+	.demo, .news-blog, .support {
+		display:none;
+	}
+
+	.scroll-intro {
+		display:none;
+	}
+
+	.section-heading {
+		font-size:2.25em;
+		margin:23px auto 0 auto;
+	}
+
+	.label-text {
+		width:82.24%;
+		padding:2.94% 3.32% 3.3% 3.32%;
+	}
+
+	.label-text p {
+		font-size:0.875em;
+		line-height: 1.29;
+	}
+
+	.label-text p:last-child {
+		font-family:"RobotoBlack";
+	}
+
+	.about-point {
+		min-height:190px;
+	}
+
+	.about-point img {
+		max-width:60.88%;
+	}
+
+	.about-point p {
+		font-size:1.125em;
+		font-family:"RobotoMedium";
+		margin-bottom:15px;
+	}
+
+	.solution-points-group {
+		min-height:0px;
+		margin-bottom:46px;
+	}
+
+	.solution-point {
+		margin:0;
+		height:72px;
+		width:72px;
+		overflow:visible;
+		
+	}
+
+	.solution-point:first-child {
+		margin:0px 1px 0px 57px;
+	}
+
+	.solution-point:nth-child(2) {
+		margin:0px 63px 0px 66px;
+	}
+
+	.solution-point:nth-child(3) {
+		margin:50px 0px 0px 57px;
+	}
+
+	.solution-point:nth-child(4) {
+		margin:50px 63px 0px 71px;
+	}
+
+	.solution-point:nth-child(5) {
+		margin:50px 0px 0px 20px;
+	}
+
+	.solution-point:nth-child(6) {
+		margin:50px 24px 0px 3px;
+	}
+
+	.solution-icon {
+		height:45px;
+		margin:10px 0 0 10px;
+		width:45px;
+	}
+
+	.solution-point p {
+		background:#f6f8fb;
+		font-size:1.375em;
+		margin:-11% 0 0 21%;
+		width:90px;
+		padding:0;
+	}
+
+	.show-solution {
+		background:url(../images/show-solution.png);
+		border:none;
+		display:block;
+		outline:none;
+		height:14px;
+		width:29px;
+		margin:0 auto;
+	}
+
+	.solution-border-bottom {
+		border-bottom:2px solid #a1a2a3;
+		display:block;
+		height:9px;
+		margin:0 auto;
+		width:88.24%;
+	}
+
+	.contact {
+		padding-top:40px;
+	}
+
+	.contact h5 {
+		font-size:1.5em;
+		text-transform:none;
+	}
+
+	.contact p {
+		margin-top:30px;
+		font-family:"RobotoLight";
+		font-size:1.125em;
+		width:280px;
+	}
+
+	.contact p:nth-child(5) {
+		width:180px;
+	}
+
+	.contact-wrapper {
+		margin-top:0px;
+	}
+
+	.img-map {
+		flex-grow:0;
+		min-width:265px;
+		min-height:205px;
+	}
+
+	.img-map span {
+		font-size:1.25em;
+		margin-top:55px;
+	}
+
+	.contact-form input[type="text"] {
+		font-size:1.125em;
+		padding:15px 2% 15px 2%;
+		width:80.59%;
+	}
+
+	.contact-form .form-submit p {
+		font-family:"RobotoMedium";
+		font-size:1.875em;
+	}
+
+	.submit-button {
+		margin:30px auto 0 auto;
+		padding:4%;
+	}
+
+	footer {
+		min-height:48px;
+	}
+
+	.footer-wrapper {
+		min-height:48px;
+		padding-top:15px;
+	}
+
+	.footer-wrapper p {
+		font-size:0.750em;
+		min-height:48px;
+	}
+
+}
